@@ -20,11 +20,11 @@ int main(void)
     // TODO: Calculate number of years until we reach threshold
        int populationNow=startsize;
        int Years =0;
-       float growthrate = 1+(1.0/3.0-1.0/4.0);
+       float growthrate = 1.0+(1.0/3.0-1.0/4.0);
        printf("growth rate is %f\n",growthrate);
        do
        {
-        populationNow= populationNow*growthrate;
+        populationNow = populationNow*growthrate;
         Years++;
        }
        while (populationNow < endsize);
