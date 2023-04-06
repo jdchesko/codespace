@@ -21,6 +21,7 @@ int main(void)
        int populationNow=startsize;
        int Years =0;
        float growthrate = (1/3-1/4);
+       printf("growth rate is %f\n",growthrate);
        do
        {
         populationNow= populationNow*growthrate;
