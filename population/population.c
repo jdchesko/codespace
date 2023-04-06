@@ -22,7 +22,7 @@ int main(void)
        int Years =0;
        do
        {
-        PopulationNow= PopulationNow*float(1/3-1/4);
+        populationNow= populationNow*float(1/3-1/4);
         Years++;
        }
        while (populationNow < endsize);
