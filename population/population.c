@@ -20,11 +20,12 @@ int main(void)
     // TODO: Calculate number of years until we reach threshold
        int populationNow=startsize;
        int Years =0;
-       do while (populationNow < endsize)
+       do
        {
-        PopulationNow= PopulationNow*(1/3-1/4);
-        Years++
+        PopulationNow= PopulationNow*float(1/3-1/4);
+        Years++;
        }
+       while (populationNow < endsize);
     // TODO: Print number of years
     printf("total years to grow from %i to %i is %i\n",startsize, endsize, Years)
 }
