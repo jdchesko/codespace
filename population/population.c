@@ -22,10 +22,10 @@ int main(void)
        int Years =0;
        do
        {
-        populationNow= populationNow*float(1/3-1/4);
+        populationNow= populationNow*(1/3-1/4);
         Years++;
        }
        while (populationNow < endsize);
     // TODO: Print number of years
-    printf("total years to grow from %i to %i is %i\n",startsize, endsize, Years)
+    printf("total years to grow from %i to %i is %i\n",startsize, endsize, Years);
 }
