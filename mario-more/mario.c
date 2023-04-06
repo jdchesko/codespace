@@ -10,5 +10,7 @@ int main(void)
  while (rows <1) || (rows>8)
  for (int rowcounter=0; rowcounter < rows; rowcounter++ )
      for ( int spacecount=0; spacecount<rowcounter; spacecounter++)
-     {   string leftpyramid=}
+     // print left pyramid first
+       {
+        if    string leftpyramid=}
 }
