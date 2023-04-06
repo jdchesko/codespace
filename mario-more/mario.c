@@ -12,5 +12,5 @@ int main(void)
      for ( int spacecount=0; spacecount<rowcounter; spacecounter++)
      // print left pyramid first
        {
-        if    string leftpyramid=}
+        if (rowcounter)   string leftpyramid=}
 }
