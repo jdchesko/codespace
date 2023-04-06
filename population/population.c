@@ -20,9 +20,10 @@ int main(void)
     // TODO: Calculate number of years until we reach threshold
        int populationNow=startsize;
        int Years =0;
+       float growthrate = (1/3-1/4);
        do
        {
-        populationNow= populationNow*(1/3-1/4);
+        populationNow= populationNow*growthrate;
         Years++;
        }
        while (populationNow < endsize);
