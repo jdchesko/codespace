@@ -8,6 +8,6 @@ int main(void)
     int rows = get_int("input number of rows between 1 and 8:");
  }
  while (rows <1) || (rows>8)
- for (int counter=0; counter < rows; counter++ )
-   
+ for (int rowcounter=0; rowcounter < rows; rowcounter++ )
+   for ( int spacecount=0; )
 }
