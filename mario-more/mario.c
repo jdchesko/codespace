@@ -12,5 +12,13 @@ int main(void)
      for ( int spacecount=0; spacecount<rowcounter; spacecounter++)
      // print left pyramid first
        {
-        if (rowcounter<rows)   string leftpyramid[]=" "}
+        if (rowcounter<rows)
+        {
+         string leftpyramid[spacecount]=" "
+         string rightpyramid[]
+        }
+        else
+        {
+         string leftpyramid[spacecount]="#"
+        }
 }
