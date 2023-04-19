@@ -20,5 +20,6 @@ int main(void)
         else
         {
          string leftpyramid[spacecount]="#"
-        }
+         string rightpyramid[spacecount]="#"
+         }
 }
