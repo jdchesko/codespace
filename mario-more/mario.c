@@ -10,7 +10,7 @@ int main(void)
  while (rows <1) || (rows>8)
  for (int rowcounter=0; rowcounter < rows; rowcounter++ )
      for ( int spacecount=0; spacecount<rowcounter; spacecounter++)
-     // print left pyramid first
+     // build left pyramid then right noting symmetry
        {
         if (rowcounter<rows)
         {
@@ -22,4 +22,6 @@ int main(void)
          string leftpyramid[spacecount]="#"
          string rightpyramid[spacecount]="#"
          }
-}
+         string leftpyramid[spacecount+1]=" "
+         string rightpyramid[spacecount+1]=" "
+         for ()}
