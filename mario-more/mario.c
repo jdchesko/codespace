@@ -15,7 +15,7 @@ int main(void)
         if (rowcounter<rows)
         {
          string leftpyramid[spacecount]=" "
-         string rightpyramid[]
+         string rightpyramid[rowcounter-spacecount]=" "
         }
         else
         {
